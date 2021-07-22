@@ -142,6 +142,7 @@ article > img {
 /* ========== Section Clients ============ */
 #section-clients > img {
     width: 100px;
+    padding: 5px
 }
 
 /* ========== Testimonial ============ */
