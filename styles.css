@@ -9,7 +9,7 @@
 
 /* site variables here  */
 :root {
-    --purple: #515fbc;
+    --purple: #3b4dc3;
     --gray-light: #8e99a1;
     --blue-dark: #1e262f;
 }
@@ -50,8 +50,27 @@ header {
 
 h1 {
     font-weight: 500;
+    margin: 10px 0;
 }
 
 h3 {
     font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/* ====== MIDDLE-IMAGE ====== */
+#section-middle-image {
+    background-color: var(--purple);
+    height: 700px;
+}
+
+/* ====== SECTION-ARTICLES ====== */
+
+#section-articles {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    padding: 40px;
 }
